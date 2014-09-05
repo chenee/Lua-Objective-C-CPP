@@ -5,9 +5,11 @@ this is a demo project,show you how to hybrid Lua, C++, Objective-C.
 e.g. call C++ from OC, operate C++ class by Lua，which called by OC ...
 
 thanks to these project:
-1\ cocos2dx-lua
-2\ https://github.com/narfdotpl/lua-on-ios
-3\ http://www.codenix.com/~tolua/
+
+1. [cocos2dx-lua][c1].
+2. [https://github.com/narfdotpl/lua-on-ios][c2].
+3. [http://www.codenix.com/~tolua/][c3].
+
 
 How to setup the hybrid lua project.
 
