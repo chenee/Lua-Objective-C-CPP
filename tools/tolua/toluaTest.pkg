@@ -1,0 +1,14 @@
+$#include "Animal.h"
+
+
+class Animal{
+public:
+    Animal(std::string name);
+    void setAge(int age);
+    int getAge();
+    void sound();
+};
+
+
+
+
