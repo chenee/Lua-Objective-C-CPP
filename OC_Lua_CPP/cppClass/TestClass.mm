@@ -17,6 +17,7 @@
 -(void)initAnimal{
     anim = new Animal("Dog");
     anim->sound();
+    anim->callObjC();
 }
 
 +(void)openLib:(lua_State*)state{

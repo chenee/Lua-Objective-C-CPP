@@ -7,6 +7,7 @@ public:
     void setAge(int age);
     int getAge();
     void sound();
+    bool callObjC();
 };
 
 

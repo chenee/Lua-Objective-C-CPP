@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3B277D619BA227300E6113F /* Animal.mm in Sources */ = {isa = PBXBuildFile; fileRef = A3B277D519BA227300E6113F /* Animal.mm */; };
 		A3F1689819B996E600EF9291 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F1689719B996E600EF9291 /* main.m */; };
 		A3F1689B19B996E600EF9291 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F1689A19B996E600EF9291 /* AppDelegate.m */; };
 		A3F1689E19B996E600EF9291 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F1689D19B996E600EF9291 /* ViewController.m */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A3B277D519BA227300E6113F /* Animal.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Animal.mm; sourceTree = "<group>"; };
 		A3F1689219B996E600EF9291 /* OC_Lua_CPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OC_Lua_CPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3F1689619B996E600EF9291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3F1689719B996E600EF9291 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				A3F168B919B9991A00EF9291 /* Animal.h */,
+				A3B277D519BA227300E6113F /* Animal.mm */,
 				A3F168BC19B9991A00EF9291 /* toluaTest.cpp */,
 				A3F168BA19B9991A00EF9291 /* TestClass.h */,
 				A3F168BB19B9991A00EF9291 /* TestClass.mm */,
@@ -324,6 +327,7 @@
 				A3F1689E19B996E600EF9291 /* ViewController.m in Sources */,
 				A3F168D619B9991A00EF9291 /* tolua_push.c in Sources */,
 				A3F1689B19B996E600EF9291 /* AppDelegate.m in Sources */,
+				A3B277D619BA227300E6113F /* Animal.mm in Sources */,
 				A3F168DD19B99B5000EF9291 /* Person.m in Sources */,
 				A3F168CF19B9991A00EF9291 /* TestClass.mm in Sources */,
 				A3F1689819B996E600EF9291 /* main.m in Sources */,
@@ -524,6 +528,7 @@
 				A3F168B419B996E600EF9291 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3F168B519B996E600EF9291 /* Build configuration list for PBXNativeTarget "OC_Lua_CPPTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +537,7 @@
 				A3F168B719B996E600EF9291 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

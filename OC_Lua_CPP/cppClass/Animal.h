@@ -32,13 +32,15 @@ using namespace std;
 //
 class Animal{
 public:
-    Animal(std::string name):age(0){ this->name = name;};
+    Animal(std::string name);//:age(0){ this->name = name;};
     void setAge(int age) { this->age = age;};
     int getAge(){ return this->age;};
     void sound(){ cout << " -- Animal name:   " << this->name << "  and it's Age:"<< this->age << endl;};
+    bool callObjC();
 private:
     string name;
     int age;
+    void* objcHandler;
 };
 
 

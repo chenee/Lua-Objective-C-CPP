@@ -13,6 +13,8 @@ function call_cpp_from_lua_use_tolua(noUseValue)
     a.setAge(a,100)
 
     a:sound()
+    
+    a:callObjC()
 
     print ("dog age is :" .. a:getAge())
 end

@@ -25,5 +25,12 @@ int l_get_person_name(lua_State *L) {
 
 
 @implementation Person
++(Person*)createItem{
+    Person *p = [[Person alloc]init];
+    return p;
+}
+-(void)doSomething:(NSString*)something{
+    NSLog(@"do some thing ...%@",something);
+}
 
 @end

@@ -15,4 +15,6 @@ int l_get_person_name(lua_State *L);
 
 @property (strong, nonatomic) NSString *name;
 
++(Person*)createItem;
+-(void)doSomething:(NSString *)something;
 @end
