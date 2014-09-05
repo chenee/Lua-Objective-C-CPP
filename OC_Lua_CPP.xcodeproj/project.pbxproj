@@ -13,6 +13,17 @@
 		A3F168A119B996E600EF9291 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3F1689F19B996E600EF9291 /* Main.storyboard */; };
 		A3F168A319B996E600EF9291 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3F168A219B996E600EF9291 /* Images.xcassets */; };
 		A3F168AF19B996E600EF9291 /* OC_Lua_CPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F168AE19B996E600EF9291 /* OC_Lua_CPPTests.m */; };
+		A3F168CF19B9991A00EF9291 /* TestClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = A3F168BB19B9991A00EF9291 /* TestClass.mm */; };
+		A3F168D019B9991A00EF9291 /* toluaTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3F168BC19B9991A00EF9291 /* toluaTest.cpp */; };
+		A3F168D119B9991A00EF9291 /* libluajit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F168C519B9991A00EF9291 /* libluajit.a */; };
+		A3F168D319B9991A00EF9291 /* tolua_event.c in Sources */ = {isa = PBXBuildFile; fileRef = A3F168C919B9991A00EF9291 /* tolua_event.c */; };
+		A3F168D419B9991A00EF9291 /* tolua_is.c in Sources */ = {isa = PBXBuildFile; fileRef = A3F168CB19B9991A00EF9291 /* tolua_is.c */; };
+		A3F168D519B9991A00EF9291 /* tolua_map.c in Sources */ = {isa = PBXBuildFile; fileRef = A3F168CC19B9991A00EF9291 /* tolua_map.c */; };
+		A3F168D619B9991A00EF9291 /* tolua_push.c in Sources */ = {isa = PBXBuildFile; fileRef = A3F168CD19B9991A00EF9291 /* tolua_push.c */; };
+		A3F168D719B9991A00EF9291 /* tolua_to.c in Sources */ = {isa = PBXBuildFile; fileRef = A3F168CE19B9991A00EF9291 /* tolua_to.c */; };
+		A3F168DC19B99B5000EF9291 /* LuaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F168D919B99B5000EF9291 /* LuaManager.m */; };
+		A3F168DD19B99B5000EF9291 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F168DB19B99B5000EF9291 /* Person.m */; };
+		A3F168DF19B99B6100EF9291 /* foo.lua in Resources */ = {isa = PBXBuildFile; fileRef = A3F168DE19B99B6100EF9291 /* foo.lua */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +49,27 @@
 		A3F168A819B996E600EF9291 /* OC_Lua_CPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OC_Lua_CPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3F168AD19B996E600EF9291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3F168AE19B996E600EF9291 /* OC_Lua_CPPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OC_Lua_CPPTests.m; sourceTree = "<group>"; };
+		A3F168B919B9991A00EF9291 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		A3F168BA19B9991A00EF9291 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		A3F168BB19B9991A00EF9291 /* TestClass.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TestClass.mm; sourceTree = "<group>"; };
+		A3F168BC19B9991A00EF9291 /* toluaTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = toluaTest.cpp; sourceTree = "<group>"; };
+		A3F168C019B9991A00EF9291 /* lauxlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lauxlib.h; sourceTree = "<group>"; };
+		A3F168C119B9991A00EF9291 /* lua.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua.h; sourceTree = "<group>"; };
+		A3F168C219B9991A00EF9291 /* luaconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = luaconf.h; sourceTree = "<group>"; };
+		A3F168C319B9991A00EF9291 /* lualib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lualib.h; sourceTree = "<group>"; };
+		A3F168C519B9991A00EF9291 /* libluajit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libluajit.a; sourceTree = "<group>"; };
+		A3F168C819B9991A00EF9291 /* tolua++.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "tolua++.h"; sourceTree = "<group>"; };
+		A3F168C919B9991A00EF9291 /* tolua_event.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tolua_event.c; sourceTree = "<group>"; };
+		A3F168CA19B9991A00EF9291 /* tolua_event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tolua_event.h; sourceTree = "<group>"; };
+		A3F168CB19B9991A00EF9291 /* tolua_is.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tolua_is.c; sourceTree = "<group>"; };
+		A3F168CC19B9991A00EF9291 /* tolua_map.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tolua_map.c; sourceTree = "<group>"; };
+		A3F168CD19B9991A00EF9291 /* tolua_push.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tolua_push.c; sourceTree = "<group>"; };
+		A3F168CE19B9991A00EF9291 /* tolua_to.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tolua_to.c; sourceTree = "<group>"; };
+		A3F168D819B99B5000EF9291 /* LuaManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuaManager.h; sourceTree = "<group>"; };
+		A3F168D919B99B5000EF9291 /* LuaManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuaManager.m; sourceTree = "<group>"; };
+		A3F168DA19B99B5000EF9291 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A3F168DB19B99B5000EF9291 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A3F168DE19B99B6100EF9291 /* foo.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = foo.lua; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3F168D119B9991A00EF9291 /* libluajit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +117,12 @@
 				A3F1689C19B996E600EF9291 /* ViewController.h */,
 				A3F1689D19B996E600EF9291 /* ViewController.m */,
 				A3F1689F19B996E600EF9291 /* Main.storyboard */,
+				A3F168D819B99B5000EF9291 /* LuaManager.h */,
+				A3F168D919B99B5000EF9291 /* LuaManager.m */,
+				A3F168DA19B99B5000EF9291 /* Person.h */,
+				A3F168DB19B99B5000EF9291 /* Person.m */,
+				A3F168B819B9991A00EF9291 /* cppClass */,
+				A3F168BD19B9991A00EF9291 /* Lua */,
 				A3F168A219B996E600EF9291 /* Images.xcassets */,
 				A3F1689519B996E600EF9291 /* Supporting Files */,
 			);
@@ -114,6 +153,69 @@
 				A3F168AD19B996E600EF9291 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3F168B819B9991A00EF9291 /* cppClass */ = {
+			isa = PBXGroup;
+			children = (
+				A3F168B919B9991A00EF9291 /* Animal.h */,
+				A3F168BC19B9991A00EF9291 /* toluaTest.cpp */,
+				A3F168BA19B9991A00EF9291 /* TestClass.h */,
+				A3F168BB19B9991A00EF9291 /* TestClass.mm */,
+			);
+			path = cppClass;
+			sourceTree = "<group>";
+		};
+		A3F168BD19B9991A00EF9291 /* Lua */ = {
+			isa = PBXGroup;
+			children = (
+				A3F168BE19B9991A00EF9291 /* luajit */,
+				A3F168DE19B99B6100EF9291 /* foo.lua */,
+				A3F168C719B9991A00EF9291 /* tolua */,
+			);
+			path = Lua;
+			sourceTree = "<group>";
+		};
+		A3F168BE19B9991A00EF9291 /* luajit */ = {
+			isa = PBXGroup;
+			children = (
+				A3F168BF19B9991A00EF9291 /* include */,
+				A3F168C419B9991A00EF9291 /* ios */,
+			);
+			path = luajit;
+			sourceTree = "<group>";
+		};
+		A3F168BF19B9991A00EF9291 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A3F168C019B9991A00EF9291 /* lauxlib.h */,
+				A3F168C119B9991A00EF9291 /* lua.h */,
+				A3F168C219B9991A00EF9291 /* luaconf.h */,
+				A3F168C319B9991A00EF9291 /* lualib.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		A3F168C419B9991A00EF9291 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				A3F168C519B9991A00EF9291 /* libluajit.a */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		A3F168C719B9991A00EF9291 /* tolua */ = {
+			isa = PBXGroup;
+			children = (
+				A3F168C819B9991A00EF9291 /* tolua++.h */,
+				A3F168C919B9991A00EF9291 /* tolua_event.c */,
+				A3F168CA19B9991A00EF9291 /* tolua_event.h */,
+				A3F168CB19B9991A00EF9291 /* tolua_is.c */,
+				A3F168CC19B9991A00EF9291 /* tolua_map.c */,
+				A3F168CD19B9991A00EF9291 /* tolua_push.c */,
+				A3F168CE19B9991A00EF9291 /* tolua_to.c */,
+			);
+			path = tolua;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +300,7 @@
 			files = (
 				A3F168A119B996E600EF9291 /* Main.storyboard in Resources */,
 				A3F168A319B996E600EF9291 /* Images.xcassets in Resources */,
+				A3F168DF19B99B6100EF9291 /* foo.lua in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +318,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3F168D719B9991A00EF9291 /* tolua_to.c in Sources */,
+				A3F168D419B9991A00EF9291 /* tolua_is.c in Sources */,
+				A3F168D319B9991A00EF9291 /* tolua_event.c in Sources */,
 				A3F1689E19B996E600EF9291 /* ViewController.m in Sources */,
+				A3F168D619B9991A00EF9291 /* tolua_push.c in Sources */,
 				A3F1689B19B996E600EF9291 /* AppDelegate.m in Sources */,
+				A3F168DD19B99B5000EF9291 /* Person.m in Sources */,
+				A3F168CF19B9991A00EF9291 /* TestClass.mm in Sources */,
 				A3F1689819B996E600EF9291 /* main.m in Sources */,
+				A3F168D519B9991A00EF9291 /* tolua_map.c in Sources */,
+				A3F168D019B9991A00EF9291 /* toluaTest.cpp in Sources */,
+				A3F168DC19B99B5000EF9291 /* LuaManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +445,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = OC_Lua_CPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OC_Lua_CPP/Lua/luajit/ios",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -344,7 +461,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = OC_Lua_CPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OC_Lua_CPP/Lua/luajit/ios",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
